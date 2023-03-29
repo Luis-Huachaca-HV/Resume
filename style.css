@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-sm-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
