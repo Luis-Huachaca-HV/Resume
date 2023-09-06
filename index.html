@@ -5,63 +5,15 @@
   <title>CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-
-  <style>
-    body {
-    margin: 0;
-    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)  
-    }
-
-
-    h1, h2, h3, h4, h5 {
-      color: #0056b3;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 50%;
-    }
-
-    .lead {
-      font-size: 1.25rem;
-    }
-
-    .list-unstyled li {
-      padding-bottom: 0.5rem;
-    }
-
-    a {
-      color: #0056b3;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .btn-secondary {
-      background-color: #0056b3;
-      border-color: #0056b3;
-    }
-
-    .btn-secondary:hover {
-      background-color: #003982;
-      border-color: #003982;
-    }
-    .rowmb-5 {
-        display: flex;
-        align-items: center;
-    }
-  </style>
+  
+  <link rel="stylesheet" href = "style.css">
 </head>
 <body>
 <!-- Rest of your HTML content -->
 
-      <div class="row mb-5" style="display: flex;">
+      <div class="rowmb-5" style="display: flex;">
         <div class="col-sm-4" style="margin: 10px;">
-            <img src="perfil.png" alt="Profile Picture">
+            <img src="perfil .png" alt="Profile Picture">
         </div>
         <div class="col-md-6" style="margin: 10px;">
             <h1 class="h3">Name</h1>
@@ -71,7 +23,7 @@
             <h1 class="h3">Contact</h1>
             <ul class="list-unstyled">
                 <li><i class="bi bi-envelope me-3"></i><a href="mailto:luis.huachaca@ucsp.edu.pe">luis.huachaca@ucsp.edu.pe</a></li>
-                <li><i class = ""><a href="https://www.instagram.com/fredy.manuel.huachaca/">Instagram</a></i></li>
+                <li><i class = ""><a href="https://www.instagram.com/fredy.manuel.huachaca/">https://www.instagram.com/fredy.manuel.huachaca/</a></i></li>
                 <li><i class="bi bi-telephone me-3"></i>+51 994958700</li>
             </ul>
         </div>
@@ -95,10 +47,31 @@
           <h2 class="h4 mb-3">Skills</h2>
           <ul class="list-unstyled">
             <li>
-              <p>English(C1), Spanish(natural language)</p>
-              <p>Programming languages: C++, Python, JavaScript, Matlab</p>
-              <p>Web Programming Skills: Django, JavaScript, SQL</p>
-              <p>Work ethic Skills: Capable to handle High pressure situations, Customer Service, Ethic on work, Respect, Common Sense, Capable to work on Fast Paced Environments</p>
+              <p>English(C1), Spanish(natural language), German(A2)</p>
+            </li>
+            <li>
+
+                <p>Technical Skills:
+                    <span class="rating">
+                        <input type="radio" id="cppRating" name="cppRating" value="6" checked /><label for="cppRating" title="6 stars"></label>
+                </span>C++(6/10),
+        
+                <span class="rating">
+                    <input type="radio" id="pythonRating" name="pythonRating" value="7.5" checked /><label for="pythonRating" title="7.5 stars"></label>
+                </span>Python(7.5/10),
+                
+                <span class="rating">
+                    <input type="radio" id="htmlCssRating" name="htmlCssRating" value="8" checked /><label for="htmlCssRating" title="8 stars"></label>
+                </span>Html/CSS(8/10),
+                
+                <span class="rating">
+                    <input type="radio" id="postgresRating" name="postgresRating" value="6.5" checked /><label for="postgresRating" title="6.5 stars"></label>
+                </span>PostgreSQL(6.5/10)
+            </p>
+            </li>
+            <li>
+
+                <p>Soft Skills: Capable to handle High pressure situations, Customer Service, Ethic on work, Respect, Common Sense, Capable to work on Fast Paced Environments</p>
             </li>
           </ul>
         </div>
@@ -106,37 +79,51 @@
           <h2 class="h4 mb-3">Experience</h2>
           <ul class="list-unstyled">
             <li>
-              <h3 class="h5">Team member | UI designer | Requirements analysis at GIPE23</h3>
+                <h3 class="h5">Full Stack Freelance Project</h3>
+                <p class="mb-1">Car Connect</p>
+                <p> This was a Project for a company that wanted to have control of the documents and maintenance for their cars, using a dashboard to manage their documents easily, also the maintenance information for each car, get some stats around that information and email system to reminder them for missing information or due date documents i learned DJango, frontend tools, PostgreSQL and JS for developing the project.</p>
+                <a href = "https://github.com/Luis-Huachaca-HV/CarConnect">https://github.com/Luis-Huachaca-HV/CarConnect</a>
+                <p></p>
+                <p class="text-muted">2023/08 -> ...</p>
+              </li>
+            <li>
+              <h3 class="h5">UI designer | Requirements analysis at GIPE23</h3>
               <p class="mb-1">GIPE2023</p>
-              <p> This project was about working with four universities around the world making some proposals to UNDP accelerator labs in order to help them, we look into new requirements and sorted to make the proposal</p>
-              <a href = "https://gipe.thm-it.de/"></a>
+              <p> This project was about working with four universities around the world making some proposals to the United Nations Development Program, working with their Accelerator Labs in order to help them, we looked into their requirements, analyzed the problems and made proposals</p>
+              <a href = "https://gipe.thm-it.de/projects/about-the-project-for-undp-accelerator-labs/">https://gipe.thm-it.de/projects/about-the-project-for-undp-accelerator-labs/</a>
               <p></p>
               <p class="text-muted">2021/12 - 2022/07</p>
             </li>
             <li>
               <h3 class="h5">Participant on the Network Infraestructure branch of GIPE2022 Project</h3>
               <p class="mb-1">GIPE2022</p>
-              <a href = "https://gipe.thm-it.de/projects/about-the-project-for-colegio-san-juan-aposto/"></a>
-              <a href = "https://colegiosanjuanapostol.online/"></a>
+              <p class="mb-1">This project was about helping a school in situation of vulnerability with the knowledge of four universities around the world, same as GIPE2023, my contribution was gathering internet and network data of the area and creating a map that helps them choosing their best internet provider available</p>
+              <p class="mb-1">
+                  <a href = "https://gipe.thm-it.de/projects/about-the-project-for-colegio-san-juan-aposto/">https://gipe.thm-it.de/projects/about-the-project-for-colegio-san-juan-aposto/</a>
+              </p>
+              <a href = "https://colegiosanjuanapostol.online/">https://colegiosanjuanapostol.online/</a>
               <p class="text-muted">2021/12 - 2022/07</p>
             </li>
 
             <li>
               <h3 class="h5">Freelance Project</h3>
               <p class="mb-1">PixelSaur</p>
+              <p> This was a University project, a Marketplace for media products, we learned DJango, PostgreSQL, Software Documentation</p>
                 <a href = "https://github.com/angel452/IngenieriaSoftwareII"></a>
               <p class="text-muted">2022/08 - 2022/12</p>
             </li>
             <li>
               <h3 class="h5">Freelance Project</h3>
               <p class="mb-1">Invertrans H&V</p>
-              <a href ="https://github.com/Luis-Huachaca-HV/Proyecto.invertrans.en-curso"></a>
+              <p>This was a freelance project for a company, a landing page where people could know the history of the company, their services, their products and contact information, mainly Html/CSS/JS</p>
+              <a href ="https://github.com/Luis-Huachaca-HV/Proyecto.invertrans.en-curso">https://github.com/Luis-Huachaca-HV/Proyecto.invertrans.en-curso</a>
               <p class="text-muted">2020/01 - 2020/03</p>
             </li>
             <li>
               <h3 class="h5">Freelance Project</h3>
               <p class="mb-1">IMarte Telecomunicaciones</p>
-              <a href="https://github.com/Luis-Huachaca-HV/Proyecto-Heron"</a>
+              <p>This was a freelance project for a startup, mainly an Ecommerce of Internet Services, landing page and Form contact information</p>
+              <a href="https://github.com/Luis-Huachaca-HV/Proyecto-Heron">https://github.com/Luis-Huachaca-HV/Proyecto-Heron</a>
               <p class="text-muted">2019/8 - 2019/10</p>
             </li>
           </ul>
@@ -164,17 +151,6 @@
           </form>
         </div>
       -->
-      
-    <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/xpzenykl" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
 
       </div>
       <div class="row mt-5">
