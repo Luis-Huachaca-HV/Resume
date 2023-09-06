@@ -1,19 +1,71 @@
-.row {
-  display: flex;
-  align-items: center;
-}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
-.col-sm-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
+  body {
+      margin: 10px;
+      background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)  
+      }
+  
+  
+      h1, h2, h3, h4, h5 {
+        color: #0056b3;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+  
+      .lead {
+        font-size: 1.25rem;
+      }
+  
+      .list-unstyled li {
+        padding-bottom: 0.5rem;
+      }
+  
+      a {
+        color: #0056b3;
+        text-decoration: none;
+      }
+  
+      a:hover {
+        text-decoration: underline;
+      }
+  
+      .btn-secondary {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+  
+      .btn-secondary:hover {
+        background-color: #003982;
+        border-color: #003982;
+      }
+      .rowmb-5 {
+          display: flex;
+          align-items: center;
+      }
 
-.col-sm-8 {
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
+      rating {
+        display: inline-block;
+        font-size: 20px;
+    }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+    .rating input[type="radio"] {
+        display: none;
+    }
+
+    .rating label {
+        color: #ffa500;
+        cursor: pointer;
+    }
+
+    .rating label:before {
+        content: "\2605"; /* Unicode character for a star */
+        margin-right: 5px;
+    }
+
+    .rating input[type="radio"]:checked ~ label:before {
+        content: "\2605"; /* Unicode character for a filled star */
+    }
