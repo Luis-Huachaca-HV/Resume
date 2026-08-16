@@ -2,191 +2,196 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CV</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap CSS -->
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Luis Huachaca Vargas — software engineer for wealth-management systems, Kubernetes energy research, and retail operations.">
+  <title>Luis Huachaca Vargas — Curriculum Vitae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Rest of HTML content -->
+  <div class="toolbar no-print">
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="es" aria-pressed="false">ES</button>
+    </div>
+    <button type="button" data-print data-i18n="print">Print / Save PDF</button>
+  </div>
 
-      <div class="row mb-5" style="display: flex;">
-        <div class="col-sm-4" style="margin: 10px;">
-            <img src="perfil.png" alt="Profile Picture">
-        </div>
-        <div class="col-md-6" style="margin: 10px;">
-            <h1 class="h3">Name</h1>
-            <p class="lead">Luis Fredy Huachaca Vargas</p>
-        </div>
-        <div class="col-md-6" style="margin: 10px;">
-            <h1 class="h3">Contact</h1>
-            <ul class="list-unstyled">
-                <li><i class="bi bi-envelope me-3"></i><a href="mailto:luis.huachaca@ucsp.edu.pe">luis.huachaca@ucsp.edu.pe</a></li>
-                <li><i class=""><a href="https://www.instagram.com/fredy.manuel.huachaca/">https://www.instagram.com/fredy.manuel.huachaca/</a></i></li>
-                <li><i class="bi bi-telephone me-3"></i>+51 994958700</li>
-            </ul>
-        </div>
+  <main class="sheet" aria-label="Curriculum vitae">
+    <header class="masthead">
+      <figure class="photo-frame">
+        <img
+          src="assets/luis-huachaca.jpg"
+          width="888"
+          height="1184"
+          alt="Portrait of Luis Huachaca Vargas"
+          data-i18n-alt="photoAlt"
+        >
+      </figure>
+      <div class="identity">
+        <p class="kicker" data-i18n="kicker">Curriculum Vitae</p>
+        <h1>Luis Huachaca Vargas</h1>
+        <p class="role" data-i18n="role">Software Engineer · Financial Systems &amp; Operations</p>
+        <ul class="contact">
+          <li data-i18n="location">Arequipa, Peru</li>
+          <li><a href="mailto:luis.huachaca@ucsp.edu.pe">luis.huachaca@ucsp.edu.pe</a></li>
+          <li><a href="tel:+51994958700">+51 994 958 700</a></li>
+          <li><a href="https://linkedin.com/in/luis-huachaca-vargas-5a893120a">LinkedIn</a></li>
+          <li><a href="https://github.com/Luis-Huachaca-HV">GitHub</a></li>
+        </ul>
       </div>
+    </header>
 
-      <div class="row mb-5">
-        <div class="col-md-6">
-        <h2 class="h4 mb-3">Introduction</h2>
-          <p>I am a dedicated and passionate student of Computer Science, eager to leverage my academic background and practical skills to explore exciting opportunities in the fields of machine learning and entrepreneurship. With a solid foundation in computer science principles and a genuine enthusiasm for innovation, I am ready to contribute to projects that push the boundaries of technology while creating value in the business landscape. My academic trajectory and experiences have equipped me with the knowledge and adaptability needed to excel in these dynamic fields, and I am excited to embark on this journey of exploration and growth.</p>
-        </div>
-        <div class="col-md-6">
-          <h2 class="h4 mb-3">Education</h2>
-          <ul class="list-unstyled">
-            <li>
-              <h3 class="h5">Bachelor's Degree in Computer Science</h3>
-              <p class="mb-1">Universidad Católica San Pablo</p>
-              <p class="text-muted">2020 - 2025</p>
-            </li>
-            <li>
-              <h3 class="h5">International Workshop on Data Management AMW</h3>
-              <p class="mb-1">Department of Computer Science, University of Chile</p>
-              <p class="text-muted">2023/5 - 2023/6</p>
-            </li>
+    <p class="summary" data-i18n="summary">
+      Software engineer for a wealth-management platform used by advisors who manage real client money — portfolios, structured products, onboarding and mobile.
+      I start from the business problem, not the ticket: a figure that would mislead a client does not go to production.
+      Computer Science (UCSP) with cloud-systems research at ESTIA in France.
+    </p>
+
+    <div class="layout">
+      <section class="main-col">
+        <h2 data-i18n="experience">Experience</h2>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="nr.title">Software Engineer</h3>
+            <p class="org"><span data-i18n="nr.org">NewRoad · Wealth platform</span> · <a href="https://newroadai.com">newroadai.com</a></p>
+            <p class="when" data-i18n="nr.when">Dec 2025 — Present</p>
+          </div>
+          <ul>
+            <li data-i18n="nr.b1">Built the production wealth platform advisors use with clients: accounts, positions, Time-Weighted Return, P&amp;L in the firm’s currency, and daily ETL from IBKR and Pershing into PostgreSQL/TimescaleDB.</li>
+            <li data-i18n="nr.b2">Investment products: model-portfolio rebalancing, factsheets (live NAV and labelled backtests), and structured notes with coupon and autocall tracking.</li>
+            <li data-i18n="nr.b3">Front office on the same system: CRM, KYC/NAF onboarding links, referrals and commissions, plus the advisor React UI.</li>
+            <li data-i18n="nr.b4">Client channel: Flutter iOS/Android app, operational email, and session 2FA (FastAPI, Redis, Docker).</li>
           </ul>
-          <h2 class="h4 mb-3">Skills</h2>
-          <ul class="list-unstyled">
-            <li>
-              <p>English (C1), Spanish (native), French (A2)</p>
-            </li>
-            <li>
+        </article>
 
-                <p>Technical Skills:
-                    <span class="rating">
-                        <input type="radio" id="cppRating" name="cppRating" value="6" checked /><label for="cppRating" title="6 stars"></label>
-                </span>C++ (6/10),
-        
-                <span class="rating">
-                    <input type="radio" id="pythonRating" name="pythonRating" value="7.5" checked /><label for="pythonRating" title="7.5 stars"></label>
-                </span>Python (7.5/10),
-                
-                <span class="rating">
-                    <input type="radio" id="htmlCssRating" name="htmlCssRating" value="8" checked /><label for="htmlCssRating" title="8 stars"></label>
-                </span>Html/CSS (8/10),
-                
-                <span class="rating">
-                    <input type="radio" id="postgresRating" name="postgresRating" value="6.5" checked /><label for="postgresRating" title="6.5 stars"></label>
-                </span>PostgreSQL (6.5/10)
-            </p>
-            </li>
-            <li>
-
-                <p>Soft Skills: Ability to handle high-pressure situations, Customer Service, Work Ethics, Respect, Common Sense, Ability to work in fast-paced environments</p>
-            </li>
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="sf.title">Co-founder</h3>
+            <p class="org"><span data-i18n="sf.org">SunkuFarma · two pharmacies · Arequipa</span> · <a href="https://sunkufarma.samishop.com/">sunkufarma.samishop.com</a></p>
+            <p class="when" data-i18n="sf.when">2024 — Present</p>
+          </div>
+          <ul>
+            <li data-i18n="sf.b1">Built the store software: inventory, SUNAT electronic invoicing, and the records used for tax close — so the shops do not depend on an outside vendor for daily operations.</li>
+            <li data-i18n="sf.b2">Also ran the operation: stock, staff, tax filings and the public e-commerce site, alongside two partners.</li>
           </ul>
-        </div>
-        <div class="col-md-6">
-          <h2 class="h4 mb-3">Experience</h2>
-          <ul class="list-unstyled">
-             <li>
-                <h3 class="h5">Thesis Research</h3>
-                <p>I have been researching in my undergraduate thesis around green computing, I've been testing tools to mesaure energy consumption in software level as PowerApi and Scaphandre
-                  , the objective is to get a benchmark for energy consumption in microservices around cloud environments.</p>
-                
-                <p></p>
-                <p class="text-muted">2023/08 -> 2024/08</p>
-              </li>
-            <li>
-              <h3 class="h5">Pharmacy chain startup</h3>
-                <p class="mb-1">SunkuFarma S.A.C.</p>
-                <p> This aligns my desire to start a business, me around 2 associates started a startup on pharmacy chains, we currently have two stores in my city, I am in charge of 
-                  developing the software needed for the startup, and some accountability duties, such as tax declarations, documentation, software development, inventory, electronic receipts 
-                  and people management.</p>
-                
-                <li style="display:flex; flex-direction:column;">
-                  
-                  <a href="https://www.universidadperu.com/empresas/sunkufarma.php">Sunkufarma S.A.C. information</a>
-                  <a href="https://sunkufarma.samishop.com/"> E-Commerce </a>
-                  <a href="https://www.google.com/maps/place/Sunkufarma+SAC+Cerro+Colorado/@-16.3470084,-71.6094571,17z/data=!3m1!4b1!4m6!3m5!1s0x914237cb86422d4f:0xf2fb2de0f3df757!8m2!3d-16.3470136!4d-71.6068822!16s%2Fg%2F11lctbwb51?entry=ttu">Google Maps store location</a>
-                </li>
-              
+        </article>
 
-                <p></p>
-                <p class="text-muted">2024/01 -> ...</p>
-              </li>
-            
-            <li>
-                <h3 class="h5">Full Stack Freelance Project</h3>
-                <p class="mb-1">Car Connect</p>
-                <p>This was a project for a company that wanted to have control of documents and maintenance for their cars, using a control panel to manage their documents easily, also maintenance information for each car, obtaining some statistics around that information, and an email system to remind them of missing documents or expiration dates. I learned Django, frontend tools, PostgreSQL, and JS to develop the project.</p>
-                <a href="https://github.com/Luis-Huachaca-HV/CarConnect">https://github.com/Luis-Huachaca-HV/CarConnect</a>
-                <p></p>
-                <p class="text-muted">2023/08 - 2023/12.</p>
-              </li>
-            <li>
-              <h3 class="h5">User Interface Designer | Requirements Analysis at GIPE23</h3>
-              <p class="mb-1">GIPE2023</p>
-              <p>This project involved working with four universities worldwide making some proposals to the United Nations Development Program, working with their Acceleration Labs to assist them, examining their requirements, analyzing issues, and making proposals.</p>
-              <a href="https://gipe.thm-it.de/projects/about-the-project-for-undp-accelerator-labs/">https://gipe.thm-it.de/projects/about-the-project-for-undp-accelerator-labs/</a>
-              <p></p>
-              <p class="text-muted">2021/12 - 2022/07</p>
-            </li>
-            <li>
-              <h3 class="h5">Participant in the Network Infrastructure branch of Project GIPE2022</h3>
-              <p class="mb-1">GIPE2022</p>
-              <p class="mb-1">This project involved assisting a vulnerable school with the knowledge of four universities worldwide, similar to GIPE2023, my contribution was to gather data from the internet and the local network and create a map to help them choose their best
-available internet provider.</p>
-<p class="mb-1">
-<a href="https://gipe.thm-it.de/projects/about-the-project-for-colegio-san-juan-aposto/">https://gipe.thm-it.de/projects/about-the-project-for-colegio-san-juan-aposto/</a>
-</p>
-<a href="https://colegiosanjuanapostol.online/">https://colegiosanjuanapostol.online/</a>
-<p class="text-muted">2021/12 - 2022/07</p>
-</li>
-        <li>
-          <h3 class="h5">Freelance Project</h3>
-          <p class="mb-1">PixelSaur</p>
-          <p>This was a university project, a Marketplace for multimedia products, we learned Django, PostgreSQL, Software Documentation</p>
-            <a href="https://github.com/angel452/IngenieriaSoftwareII"></a>
-          <p class="text-muted">2022/08 - 2022/12</p>
-        </li>
-        <li>
-          <h3 class="h5">Freelance Project</h3>
-          <p class="mb-1">Invertrans H&V</p>
-          <p>This was a freelance project for a company, a landing page where people could learn about the company's history, services, products, and contact information, mainly Html/CSS/JS</p>
-          <a href="https://github.com/Luis-Huachaca-HV/Proyecto.invertrans.en-curso">https://github.com/Luis-Huachaca-HV/Proyecto.invertrans.en-curso</a>
-          <p class="text-muted">2020/01 - 2020/03</p>
-        </li>
-        <li>
-          <h3 class="h5">Freelance Project</h3>
-          <p class="mb-1">IMarte Telecomunicaciones</p>
-          <p>This was a freelance project for a startup, primarily an E-commerce for Internet Services, homepage and contact information form</p>
-          <a href="https://github.com/Luis-Huachaca-HV/Proyecto-Heron">https://github.com/Luis-Huachaca-HV/Proyecto-Heron</a>
-          <p class="text-muted">2019/8 - 2019/10</p>
-        </li>
-      </ul>
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="estia.title">Cloud Systems Researcher</h3>
+            <p class="org" data-i18n="estia.org">ESTIA Institute of Technology · Bidart, France</p>
+            <p class="when" data-i18n="estia.when">Aug 2023 — Jan 2025</p>
+          </div>
+          <ul>
+            <li data-i18n-html="estia.b1">Kubernetes usually places a pod where CPU and RAM fit. I added energy: <strong>EnergyScore</strong>, a scheduler plugin that prefers the node where the workload uses fewer joules (CPU, RAM, network, disk).</li>
+            <li data-i18n-html="estia.b2">Reduced total cluster energy by <strong>22.45%</strong> versus the default scheduler on TeaStore, DeathStarBench and muBench, measured with PowerAPI, Scaphandre and RAPL.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="gipe.title">Research Collaborator</h3>
+            <p class="org" data-i18n="gipe.org">DAAD GIPE · UNDP Accelerator Labs · Germany / remote</p>
+            <p class="when">2022 — 2023</p>
+          </div>
+          <ul>
+            <li data-i18n="gipe.b1">Took on-site Wi-Fi measurements and built a coverage map so a vulnerable school could choose an internet provider (GIPE 2022).</li>
+            <li data-i18n="gipe.b2">With UNDP Accelerator Labs (Peru, Namibia, Indonesia, Germany), analysed field problems and wrote software-requirement proposals for their programmes — four-university GIPE 2023 team.</li>
+          </ul>
+        </article>
+
+        <article class="job compact">
+          <div class="job-head">
+            <h3 data-i18n="arb.title">UX/UI Designer</h3>
+            <p class="org" data-i18n="arb.org">Arboriza 21 · donation website for a reforestation NGO (21 million trees by 2030)</p>
+            <p class="when">2023</p>
+          </div>
+        </article>
+
+        <article class="job compact">
+          <div class="job-head">
+            <h3 data-i18n="dunkin.title">Customer Service</h3>
+            <p class="org" data-i18n="dunkin.org">Dunkin' · Boston, Massachusetts, USA · on-site</p>
+            <p class="when" data-i18n="dunkin.when">Dec 2022 — Mar 2023</p>
+          </div>
+          <ul>
+            <li data-i18n="dunkin.b1">Worked in a high-volume store: trained new team members and owned daily cash counting and closing.</li>
+            <li data-i18n="dunkin.b2">Served customers and worked with people from many nationalities, languages and backgrounds.</li>
+          </ul>
+        </article>
+
+        <h2 data-i18n="projects">Selected projects</h2>
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="wa.title">WhatsApp finance</h3>
+            <p class="org"><a href="https://github.com/Luis-Huachaca-HV/llmwhatsappfinance">llmwhatsappfinance</a></p>
+          </div>
+          <ul>
+            <li data-i18n="wa.b1">Multi-user money control over WhatsApp: expenses, income and loans. An LLM turns chat into structured records (Kapso, Cloud Run, Supabase, React dashboard).</li>
+          </ul>
+        </article>
+      </section>
+
+      <aside class="side-col">
+        <h2 data-i18n="education">Education</h2>
+        <article class="edu">
+          <h3 data-i18n="edu.bs">B.Sc. Computer Science</h3>
+          <p>Universidad Católica San Pablo</p>
+          <p class="when" data-i18n="edu.ucsp">Arequipa, Peru · 2020 — 2025</p>
+          <p data-i18n="edu.thesis">Thesis: energy-aware scheduling for microservice clusters, using measured joules per request rather than leftover CPU/RAM.</p>
+        </article>
+        <article class="edu">
+          <h3 data-i18n="edu.estia">Cloud Computing research stay</h3>
+          <p>ESTIA Institute of Technology</p>
+          <p class="when" data-i18n="edu.estiaWhen">Bidart, France · 2024</p>
+        </article>
+        <article class="edu">
+          <h3 data-i18n="edu.amw">AMW Data Management workshop</h3>
+          <p data-i18n="edu.chile">University of Chile</p>
+          <p class="when">Santiago · 2023</p>
+        </article>
+
+        <h2 data-i18n="skills">Technical skills</h2>
+        <dl class="skills">
+          <div>
+            <dt data-i18n="sk.lang">Languages</dt>
+            <dd>Python, TypeScript, JavaScript, Go, C++, SQL</dd>
+          </div>
+          <div>
+            <dt data-i18n="sk.cloud">Cloud &amp; systems</dt>
+            <dd>Kubernetes, Docker, Linux, AWS, GCP, Helm, Terraform</dd>
+          </div>
+          <div>
+            <dt>Backend</dt>
+            <dd>FastAPI, Django, PostgreSQL, TimescaleDB, Redis</dd>
+          </div>
+          <div>
+            <dt>Frontend</dt>
+            <dd>React, Flutter</dd>
+          </div>
+          <div>
+            <dt data-i18n="sk.energy">Energy &amp; data</dt>
+            <dd>PowerAPI, Scaphandre, RAPL, Grafana, Pandas</dd>
+          </div>
+        </dl>
+
+        <h2 data-i18n="spoken">Languages</h2>
+        <ul class="plain">
+          <li data-i18n="sp.es">Spanish — native</li>
+          <li data-i18n="sp.en">English — advanced</li>
+          <li data-i18n="sp.fr">French — advanced</li>
+          <li data-i18n="sp.de">German — basic</li>
+        </ul>
+
+        <h2 data-i18n="also">Also</h2>
+        <p class="aside-note" data-i18n="alsoText">Taught programming; university accreditation staff; TechSuyo 2023 AI hackathon (NTT DATA); CS conferences.</p>
+      </aside>
     </div>
-  </div>
-  <!--
-    <div class="row">
-      <div class="col-md-6">
-      <h2 class="h4 mb-3">Contact Me</h2>
-      <form action="submit-form.php" method="POST">
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-      </form>
-    </div>
-  -->
-  </div>
-  <div class="row mt-5">
-    <div class="col-12 text-center">
-      <button class="btn btn-secondary" onclick="window.print()">Print CV</button>
-    </div>
-  </div>
-</div>
+  </main>
+  <script src="cv.js"></script>
 </body>
 </html>
