@@ -45,7 +45,7 @@
     </header>
 
     <p class="summary" data-i18n="summary">
-      Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, frequent blue/green deploys aimed at zero downtime — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.
+      Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, 96% of deployments without incidents — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.
     </p>
 
     <div class="layout">
@@ -72,7 +72,7 @@
             <p class="context" data-i18n="nr.ctx">Wealth-management firm, over US$20M under management · Peru</p>
           </div>
           <ul>
-            <li data-i18n="nr.b1">Put Wealth Navigator into production on a Hetzner VPS (admin access only via Tailscale, Cloudflare Tunnel), with frequent blue/green deploys aimed at zero downtime. 12 advisors serve 180+ clients.</li>
+            <li data-i18n="nr.b1">Put Wealth Navigator into production on a Hetzner VPS (admin access only via Tailscale, Cloudflare Tunnel) using blue/green deploys: 96% of deployments without incidents. 12 advisors serve 180+ clients.</li>
             <li data-i18n="nr.b2">Cut a daily manual process from 2 hours to 5 minutes with ETL into client reporting, and checked data quality before the figures were used with clients.</li>
             <li data-i18n="nr.b3">Built logchecker, a Slack bot on the Hetzner Ubuntu host (~15 containers: Wealth Navigator blue/green backend, scheduler, export worker, Caddy, Cloudflare Tunnel, IBKR gateway, Postgres, Redis). It alerts on each new SSH or Tailscale login by key owner, diffs containers, timers, listening ports and outbound connections against a baseline, and posts a CPU chart every 30 minutes. One day showed about 6 blue/green deploys.</li>
           </ul>

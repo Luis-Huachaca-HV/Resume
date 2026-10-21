@@ -7,7 +7,7 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, frequent blue/green deploys aimed at zero downtime — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
+      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, 96% of deployments without incidents — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
@@ -20,7 +20,7 @@ const translations = {
     "nr.when": "Dec 2025 — Oct 2026",
     "nr.ctx": "Wealth-management firm, over US$20M under management · Peru",
     "nr.b1":
-      "Put Wealth Navigator into production on a Hetzner VPS (admin access only via Tailscale, Cloudflare Tunnel), with frequent blue/green deploys aimed at zero downtime. 12 advisors serve 180+ clients.",
+      "Put Wealth Navigator into production on a Hetzner VPS (admin access only via Tailscale, Cloudflare Tunnel) using blue/green deploys: 96% of deployments without incidents. 12 advisors serve 180+ clients.",
     "nr.b2":
       "Cut a daily manual process from 2 hours to 5 minutes with ETL into client reporting, and checked data quality before the figures were used with clients.",
     "nr.b3":
@@ -85,7 +85,7 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y despliegues blue/green frecuentes, orientados a no cortar el servicio. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
+      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y 96% de despliegues sin incidencias. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
@@ -98,7 +98,7 @@ const translations = {
     "nr.when": "dic. 2025 — oct. 2026",
     "nr.ctx": "Sociedad de gestión de patrimonio, más de US$20M bajo administración · Perú",
     "nr.b1":
-      "Puse Wealth Navigator en producción en un VPS de Hetzner (administración solo por Tailscale, Cloudflare Tunnel), con despliegues blue/green frecuentes orientados a no cortar el servicio. 12 asesores atienden a más de 180 clientes.",
+      "Puse Wealth Navigator en producción en un VPS de Hetzner (administración solo por Tailscale, Cloudflare Tunnel) con despliegues blue/green: 96% de despliegues sin incidencias. 12 asesores atienden a más de 180 clientes.",
     "nr.b2":
       "Reduje un proceso manual diario de 2 horas a 5 minutos con ETL hacia el reporting de clientes, y revisé la calidad del dato antes de usarlo con ellos.",
     "nr.b3":
