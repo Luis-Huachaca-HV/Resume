@@ -7,14 +7,19 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "A computer scientist from Arequipa, I worked on-site at ESTIA in France to make Kubernetes greener: EnergyScore cut energy by up to 30% versus the default scheduler. I then put Wealth Navigator into production for a firm managing over US$20M, and I now co-found Moontecx while building the software behind businesses such as SunkuFarma and Cusqueñita. I am heading to a management master’s in France so infrastructure, security and business strategy become one decision.",
+      "A computer scientist from Arequipa, I worked on-site at ESTIA in France to make Kubernetes greener: EnergyScore cut energy by up to 30% versus the default scheduler. I then put Wealth Navigator into production for a firm managing over US$20M, and I am now co-founder and CTO of Moontecx, where we build software for real-estate and wealth-management firms, while I still build the software behind businesses such as SunkuFarma and Cusqueñita. I am heading to a management master’s in France so infrastructure, security and business strategy become one decision.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
     "mx.when": "Oct 2026 — Present",
-    "mx.ctx": "Technology startup · Arequipa, Peru",
+    "mx.ctx":
+      "Full-stack software factory for real-estate and wealth-management firms · Arequipa, Peru",
     "mx.b1":
-      "Closed one deal for ~US$5.8K and raised investment at a ~US$87K valuation.",
+      "We build products, platforms and integrations for real-estate and wealth-management firms, from strategy into daily operations.",
+    "mx.b2":
+      "As CTO I set the architecture and lead the build, including infrastructure and security.",
+    "mx.b3":
+      "We closed a first deal for ~US$5.8K and raised investment at a ~US$87K valuation.",
     "nr.title": "Junior software engineer & data analyst",
     "nr.org": "Newroad Global Investing",
     "nr.when": "Dec 2025 — Oct 2026",
@@ -97,14 +102,19 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Ingeniero informático de Arequipa, trabajé presencial en ESTIA (Francia) para hacer Kubernetes más verde: EnergyScore redujo la energía hasta un 30% frente al scheduler por defecto. Luego puse Wealth Navigator en producción para una firma que administra más de US$20M, y hoy cofundo Moontecx mientras construyo el software de negocios como SunkuFarma y Cusqueñita. Voy hacia un máster de management en Francia para que infraestructura, seguridad y estrategia de negocio sean una sola decisión.",
+      "Ingeniero informático de Arequipa, trabajé presencial en ESTIA (Francia) para hacer Kubernetes más verde: EnergyScore redujo la energía hasta un 30% frente al scheduler por defecto. Luego puse Wealth Navigator en producción para una firma que administra más de US$20M, y hoy soy cofundador y CTO de Moontecx, donde construimos software para inmobiliarias y firmas de gestión de patrimonio, mientras sigo construyendo el de negocios como SunkuFarma y Cusqueñita. Voy hacia un máster de management en Francia para que infraestructura, seguridad y estrategia de negocio sean una sola decisión.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
     "mx.when": "oct. 2026 — Actualidad",
-    "mx.ctx": "Start-up tecnológica · Arequipa, Perú",
+    "mx.ctx":
+      "Fábrica de software full-stack para inmobiliarias y firmas de gestión de patrimonio · Arequipa, Perú",
     "mx.b1":
-      "Cerré un negocio de ~US$5.8K y levanté inversión a una valuación de ~US$87K.",
+      "Construimos productos, plataformas e integraciones para inmobiliarias y firmas de gestión de patrimonio, de la estrategia a la operación.",
+    "mx.b2":
+      "Como CTO defino la arquitectura y dirijo la construcción, incluida la infraestructura y la seguridad.",
+    "mx.b3":
+      "Cerramos un primer negocio de ~US$5.8K y levantamos inversión a una valuación de ~US$87K.",
     "nr.title": "Ingeniero de software junior y analista de datos",
     "nr.org": "Newroad Global Investing",
     "nr.when": "dic. 2025 — oct. 2026",
