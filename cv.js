@@ -7,7 +7,7 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "A computer scientist from Arequipa, I worked on-site at ESTIA in France to make Kubernetes greener: EnergyScore cut energy by up to 30% versus the default scheduler. I then put Wealth Navigator into production for a firm managing over US$20M, and I am now co-founder and CTO of Moontecx, where we build software for real-estate and wealth-management firms, while I still build the software behind businesses such as SunkuFarma and Cusqueñita. I am heading to a management master’s in France so infrastructure, security and business strategy become one decision.",
+      "A computer scientist from Arequipa, I worked on-site at ESTIA in France to make Kubernetes greener: EnergyScore cut energy by up to 30% versus the default scheduler. I then put Wealth Navigator into production for a firm managing over US$20M. I am now co-founder and CTO of Moontecx, a software factory for real-estate and wealth-management firms. I built the software for SunkuFarma, which is still running, and for Cusqueñita. I am heading to a management master’s in France so infrastructure, security and business strategy become one decision.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
@@ -102,7 +102,7 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Ingeniero informático de Arequipa, trabajé presencial en ESTIA (Francia) para hacer Kubernetes más verde: EnergyScore redujo la energía hasta un 30% frente al scheduler por defecto. Luego puse Wealth Navigator en producción para una firma que administra más de US$20M, y hoy soy cofundador y CTO de Moontecx, donde construimos software para inmobiliarias y firmas de gestión de patrimonio, mientras sigo construyendo el de negocios como SunkuFarma y Cusqueñita. Voy hacia un máster de management en Francia para que infraestructura, seguridad y estrategia de negocio sean una sola decisión.",
+      "Ingeniero informático de Arequipa, trabajé presencial en ESTIA (Francia) para hacer Kubernetes más verde: EnergyScore redujo la energía hasta un 30% frente al scheduler por defecto. Luego puse Wealth Navigator en producción para una firma que administra más de US$20M. Hoy soy cofundador y CTO de Moontecx, una fábrica de software para inmobiliarias y firmas de gestión de patrimonio. Construí el software de SunkuFarma, que sigue en marcha, y el de Cusqueñita. Voy hacia un máster de management en Francia para que infraestructura, seguridad y estrategia de negocio sean una sola decisión.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
