@@ -7,7 +7,7 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, 96% of deployments without incidents — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
+      "A computer scientist from Arequipa, I worked on-site at ESTIA in France to make Kubernetes greener: EnergyScore cut energy by up to 30% versus the default scheduler. I then put Wealth Navigator into production for a firm managing over US$20M, and I now co-found Moontecx while building the software behind businesses such as SunkuFarma and Cusqueñita. I am heading to a management master’s in France so infrastructure, security and business strategy become one decision.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
@@ -25,6 +25,12 @@ const translations = {
       "Cut a daily manual process from 2 hours to 5 minutes with ETL into client reporting, and checked data quality before the figures were used with clients.",
     "nr.b3":
       "Built logchecker, a Slack bot on the Hetzner Ubuntu host (~15 containers: Wealth Navigator blue/green backend, scheduler, export worker, Caddy, Cloudflare Tunnel, IBKR gateway, Postgres, Redis). It alerts on each new SSH or Tailscale login by key owner, diffs containers, timers, listening ports and outbound connections against a baseline, and posts a CPU chart every 30 minutes. One day showed about 6 blue/green deploys.",
+    "cq.title": "Full-stack developer",
+    "cq.org": "Cusqueñita",
+    "cq.when": "Jul 2025 — Nov 2025",
+    "cq.ctx": "Meal plans for a mining site",
+    "cq.b1":
+      "Built the app and the website that record consumption — over 1,000 records a day — and the reports behind billing of ~US$5.8K a month.",
     "sf.title": "Co-founder",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "Jan 2024 — Present",
@@ -47,6 +53,15 @@ const translations = {
     "gipe.ctx": "Universities in Germany, Namibia, Indonesia and Peru",
     "gipe.b1":
       "On a 7-person team, delivered an internet-quality report for a municipality and proposed improvements to the UNDP web-page flow.",
+    events: "Research & events",
+    "amw.title": "Participant",
+    "amw.org":
+      "15th Alberto Mendelzon International Workshop on Foundations of Data Management (AMW 2023) and AMW Summer School",
+    "amw.when": "May 22–26, 2023",
+    "amw.ctx":
+      "Department of Computer Science, Universidad de Chile (DCC UChile) · Santiago, Chile",
+    "amw.b1":
+      "Attended this international data-management workshop and summer school, which connects Latin American students and researchers with researchers from around the world.",
     education: "Education",
     "edu.bs": "B.Sc. Computer Science",
     "edu.ucsp": "Arequipa, Peru · 2020 — 2025",
@@ -57,9 +72,6 @@ const translations = {
       "Thesis: energy-aware scheduling for microservice clusters, using measured joules per request rather than free CPU/RAM.",
     "edu.estia": "Exchange · Computer Engineering",
     "edu.estiaWhen": "On-site · Bidart, France · Aug — Dec 2024",
-    "edu.amw": "AMW Data Management workshop",
-    "edu.chile": "University of Chile",
-    "edu.amwWhen": "Santiago · May — Jun 2023",
     skills: "Technical skills",
     "sk.cloud": "Cloud & infra",
     "sk.data": "Data & energy",
@@ -85,7 +97,7 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y 96% de despliegues sin incidencias. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
+      "Ingeniero informático de Arequipa, trabajé presencial en ESTIA (Francia) para hacer Kubernetes más verde: EnergyScore redujo la energía hasta un 30% frente al scheduler por defecto. Luego puse Wealth Navigator en producción para una firma que administra más de US$20M, y hoy cofundo Moontecx mientras construyo el software de negocios como SunkuFarma y Cusqueñita. Voy hacia un máster de management en Francia para que infraestructura, seguridad y estrategia de negocio sean una sola decisión.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
@@ -103,6 +115,12 @@ const translations = {
       "Reduje un proceso manual diario de 2 horas a 5 minutos con ETL hacia el reporting de clientes, y revisé la calidad del dato antes de usarlo con ellos.",
     "nr.b3":
       "Construí logchecker, un bot de Slack en el servidor Ubuntu de Hetzner (~15 contenedores: backend blue/green de Wealth Navigator, scheduler, worker de export, Caddy, Cloudflare Tunnel, gateway de IBKR, Postgres, Redis). Avisa de cada acceso nuevo por SSH o Tailscale según el dueño de la llave, compara contenedores, timers, puertos en escucha y conexiones salientes contra una línea base, y publica un gráfico de CPU cada 30 minutos. Un día mostró unos 6 despliegues blue/green.",
+    "cq.title": "Desarrollador full-stack",
+    "cq.org": "Cusqueñita",
+    "cq.when": "jul. 2025 — nov. 2025",
+    "cq.ctx": "Pensiones de comida para un campamento minero",
+    "cq.b1":
+      "Construí la app y la web que registran el consumo — más de 1.000 registros al día — y los reportes con los que se factura ~US$5.8K al mes.",
     "sf.title": "Cofundador",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "ene. 2024 — Actualidad",
@@ -125,6 +143,15 @@ const translations = {
     "gipe.ctx": "Universidades de Alemania, Namibia, Indonesia y Perú",
     "gipe.b1":
       "En un equipo de 7 personas, entregué un informe de calidad de internet para una municipalidad y propuse mejoras al flujo de la página web del PNUD.",
+    events: "Investigación y eventos",
+    "amw.title": "Participante",
+    "amw.org":
+      "15.º Alberto Mendelzon International Workshop on Foundations of Data Management (AMW 2023) y AMW Summer School",
+    "amw.when": "22–26 may. 2023",
+    "amw.ctx":
+      "Departamento de Ciencia de la Computación, Universidad de Chile (DCC UChile) · Santiago, Chile",
+    "amw.b1":
+      "Asistí a este workshop internacional de gestión de datos y a su escuela de verano, que conecta a estudiantes e investigadores de América Latina con investigadores de todo el mundo.",
     education: "Educación",
     "edu.bs": "Bachiller en Ciencia de la Computación",
     "edu.ucsp": "Arequipa, Perú · 2020 — 2025",
@@ -135,9 +162,6 @@ const translations = {
       "Tesis: scheduling consciente de la energía en clusters de microservicios, con joules por request medidos en lugar de CPU/RAM libre.",
     "edu.estia": "Intercambio · Ingeniería informática",
     "edu.estiaWhen": "Presencial · Bidart, Francia · ago. — dic. 2024",
-    "edu.amw": "Taller AMW de gestión de datos",
-    "edu.chile": "Universidad de Chile",
-    "edu.amwWhen": "Santiago · may. — jun. 2023",
     skills: "Competencias técnicas",
     "sk.cloud": "Cloud e infra",
     "sk.data": "Datos y energía",
