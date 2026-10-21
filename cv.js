@@ -7,34 +7,30 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "Co-founder and CTO of Moontecx and computer scientist (UCSP). I design and operate cloud infrastructure for fintech: at Newroad Global Investing I put Wealth Navigator into production on a Hetzner VPS — Tailscale, Cloudflare Tunnel and blue/green deploys — <span class=\"ph\">[X advisors / Y clients]</span>, and at ESTIA, on-site in France, I built EnergyScore, a Kubernetes scheduler measured on TeaStore, µBench and DeathStarBench <span class=\"ph\">[X% less energy than the default scheduler]</span>. I want a management master's in France to connect that infrastructure work with strategy and commercial development.",
+      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, zero-downtime blue/green deploys — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
     "mx.when": "Oct 2026 — Present",
     "mx.ctx": "Technology startup · Arequipa, Peru",
     "mx.b1":
-      "Set the product and cloud stack for <span class=\"ph\">[product]</span> and stood up its infrastructure; shipped <span class=\"ph\">[MVP / release]</span> in <span class=\"ph\">[n months]</span>, now at <span class=\"ph\">[n clients / users]</span>.",
-    "mx.b2":
-      "Defined the profile and interviewed candidates for B2B business-development roles; <span class=\"ph\">[n hires; result: n meetings / first clients]</span>.",
+      "Closed one deal for ~US$5.8K and raised investment at a ~US$87K valuation.",
     "nr.title": "Junior software engineer & data analyst",
     "nr.org": "Newroad Global Investing",
     "nr.when": "Dec 2025 — Oct 2026",
-    "nr.ctx": "Wealth-management firm (markets and fintech) · Peru",
+    "nr.ctx": "Wealth-management firm, over US$20M under management · Peru",
     "nr.b1":
-      "Put Wealth Navigator into production on a Hetzner VPS: Tailscale-only admin access, Cloudflare Tunnel, and blue/green deploys. <span class=\"ph\">[n deploys without downtime; X €/month; n users or advisors]</span>",
+      "Put Wealth Navigator into production on a Hetzner VPS (Tailscale-only admin access, Cloudflare Tunnel, blue/green). 12 advisors serve 180+ clients, with zero deployments that caused downtime.",
     "nr.b2":
-      "Automated trading-operations work and checked data quality before client use, including ETL into client reporting. <span class=\"ph\">[n flows: sources → destination; from X days to Y hours]</span>",
-    "nr.b3":
-      "Helped organize an investing networking event with Inviu in Arequipa — <span class=\"ph\">[n attendees, n speakers]</span>.",
+      "Cut a daily manual process from 2 hours to 5 minutes with ETL into client reporting, and checked data quality before the figures were used with clients.",
     "sf.title": "Co-founder",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "Jan 2024 — Present",
-    "sf.ctx": "Pharmacy startup, two stores · Arequipa",
+    "sf.ctx": "Pharmacy, two stores · Arequipa",
     "sf.b1":
-      "Built the software both stores use day to day — inventory, SUNAT electronic invoicing and the records for tax close — so operations do not depend on an outside vendor. <span class=\"ph\">[n receipts / month]</span>",
+      "Built the software both stores use day to day — inventory, SUNAT electronic invoicing and tax-close records — so operations do not depend on an outside vendor.",
     "sf.b2":
-      "With two partners, also ran stock, staff, tax filings and the public shop. <span class=\"ph\">[n people on the shop floor]</span>",
+      "With two partners, the pharmacies bring in ~US$2,000 a month and employ 5 people; I also ran stock, tax filings and the public shop.",
     "estia.title": "Cloud systems researcher",
     "estia.org": "ESTIA Institute of Technology",
     "estia.when": "Aug 2023 — Jan 2025",
@@ -42,21 +38,13 @@ const translations = {
     "estia.b1":
       "Built <strong>EnergyScore</strong>, a Kubernetes scheduler plugin that places each pod on the lower-joule node (CPU, RAM, network and disk, via EcoFloc) instead of the default scheduler.",
     "estia.b2":
-      "On TeaStore, energy sat in the web UI and persistence (storage on the image service); on µBench, RAM outweighed CPU (PowerAPI, Scaphandre). <span class=\"ph\">[X% vs the default scheduler under load Y]</span>",
+      "Versus the default scheduler, EnergyScore cut energy by up to 30% in the best cases and by about 6% in the consistent runs (TeaStore, µBench, DeathStarBench).",
     "gipe.title": "GIPE project",
     "gipe.org": "DAAD · UNDP Accelerator Labs",
     "gipe.when": "Jan 2023 — Dec 2023",
     "gipe.ctx": "Universities in Germany, Namibia, Indonesia and Peru",
     "gipe.b1":
-      "With students from four universities, wrote software-requirement proposals for UNDP Accelerator Labs programmes and presented them to the vice-rector of UCSP. <span class=\"ph\">[deliverable; n people on the team]</span>",
-    projects: "Selected projects",
-    "sam.title": "SAM — Savings Asset Manager",
-    "sam.org": "Co-built with Manuel Cáceres",
-    "sam.b1":
-      "Budgeting and investing app for developers, connected to the brokers Wallbit and IBKR. <span class=\"ph\">[status: beta / production; n users]</span>",
-    "wa.title": "WhatsApp finance",
-    "wa.b1":
-      "Multi-user expenses, income and loans over WhatsApp: an LLM (OpenRouter) turns chat into records (Kapso, Cloud Run, Supabase, React dashboard). <span class=\"ph\">[n users]</span>",
+      "On a 7-person team, delivered an internet-quality report for a municipality and proposed improvements to the UNDP web-page flow.",
     education: "Education",
     "edu.bs": "B.Sc. Computer Science",
     "edu.ucsp": "Arequipa, Peru · 2020 — 2025",
@@ -85,7 +73,7 @@ const translations = {
     "sp.de": "German — A2",
     also: "Also",
     alsoText:
-      "Finalist, TechSuyo 2023 AI hackathon (GPT-4), organized by Google Developer Group and Silicon Valley tech group <span class=\"ph\">[of X teams]</span>.",
+      "Finalist among 20 teams at TechSuyo 2023 (Google Developer Group and Silicon Valley tech group). Side projects, about 10 users each: SAM, with Manuel Cáceres, and a WhatsApp finance bot.",
   },
   es: {
     title: "Luis Fredy Huachaca Vargas — Currículum Vitae",
@@ -95,34 +83,30 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). Diseño y opero infraestructura cloud para fintech: en Newroad Global Investing puse Wealth Navigator en producción sobre un VPS de Hetzner — Tailscale, Cloudflare Tunnel y despliegues blue/green — <span class=\"ph\">[X asesores / Y clientes]</span>, y en ESTIA, presencial en Francia, construí EnergyScore, un scheduler de Kubernetes medido en TeaStore, µBench y DeathStarBench <span class=\"ph\">[X% menos energía que el scheduler por defecto]</span>. Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
+      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y blue/green sin caída. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
     "mx.when": "oct. 2026 — Actualidad",
     "mx.ctx": "Start-up tecnológica · Arequipa, Perú",
     "mx.b1":
-      "Definí el producto y el stack cloud de <span class=\"ph\">[producto]</span> y monté su infraestructura; lancé <span class=\"ph\">[MVP / versión]</span> en <span class=\"ph\">[n meses]</span>, hoy con <span class=\"ph\">[n clientes / usuarios]</span>.",
-    "mx.b2":
-      "Definí el perfil y entrevisté candidatos de desarrollo comercial B2B; <span class=\"ph\">[n contrataciones; resultado: n reuniones / primeros clientes]</span>.",
+      "Cerré un negocio de ~US$5.8K y levanté inversión a una valuación de ~US$87K.",
     "nr.title": "Ingeniero de software junior y analista de datos",
     "nr.org": "Newroad Global Investing",
     "nr.when": "dic. 2025 — oct. 2026",
-    "nr.ctx": "Sociedad de gestión de patrimonio (mercados y fintech) · Perú",
+    "nr.ctx": "Sociedad de gestión de patrimonio, más de US$20M bajo administración · Perú",
     "nr.b1":
-      "Puse Wealth Navigator en producción en un VPS de Hetzner: administración solo por Tailscale, Cloudflare Tunnel y despliegues blue/green. <span class=\"ph\">[n despliegues sin corte; X €/mes; n usuarios o asesores]</span>",
+      "Puse Wealth Navigator en producción en un VPS de Hetzner (administración solo por Tailscale, Cloudflare Tunnel, blue/green). 12 asesores atienden a más de 180 clientes, con cero despliegues que causaran caída.",
     "nr.b2":
-      "Automaticé el trabajo de la operación de trading y revisé la calidad del dato antes de usarlo con clientes, incluido el ETL al reporting. <span class=\"ph\">[n flujos: fuentes → destino; de X días a Y horas]</span>",
-    "nr.b3":
-      "Ayudé a organizar un evento de networking sobre inversión con Inviu en Arequipa — <span class=\"ph\">[n asistentes, n ponentes]</span>.",
+      "Reduje un proceso manual diario de 2 horas a 5 minutos con ETL hacia el reporting de clientes, y revisé la calidad del dato antes de usarlo con ellos.",
     "sf.title": "Cofundador",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "ene. 2024 — Actualidad",
-    "sf.ctx": "Start-up de farmacias, dos locales · Arequipa",
+    "sf.ctx": "Botica, dos locales · Arequipa",
     "sf.b1":
-      "Construí el software que las dos tiendas usan a diario — inventario, facturación electrónica SUNAT y los registros del cierre tributario — para no depender de un proveedor externo. <span class=\"ph\">[n comprobantes / mes]</span>",
+      "Construí el software que las dos tiendas usan a diario — inventario, facturación electrónica SUNAT y registros del cierre tributario — para no depender de un proveedor externo.",
     "sf.b2":
-      "Con dos socios, también llevé el stock, el personal, las declaraciones de impuestos y la tienda pública. <span class=\"ph\">[n personas en tienda]</span>",
+      "Con dos socios, las boticas generan ~US$2,000 al mes y emplean a 5 personas; también llevé el stock, los impuestos y la tienda pública.",
     "estia.title": "Investigador de sistemas cloud",
     "estia.org": "ESTIA Institute of Technology",
     "estia.when": "ago. 2023 — ene. 2025",
@@ -130,21 +114,13 @@ const translations = {
     "estia.b1":
       "Construí <strong>EnergyScore</strong>, un plugin de scheduler de Kubernetes que coloca cada pod en el nodo de menos joules (CPU, RAM, red y disco, con EcoFloc) en lugar del scheduler por defecto.",
     "estia.b2":
-      "En TeaStore la energía se concentró en la web UI y en persistencia (almacenamiento en el servicio de imágenes); en µBench, la RAM pesó más que la CPU (PowerAPI, Scaphandre). <span class=\"ph\">[X% frente al scheduler por defecto bajo carga Y]</span>",
+      "Frente al scheduler por defecto, EnergyScore redujo la energía hasta un 30% en los mejores casos y cerca de un 6% en las corridas consistentes (TeaStore, µBench, DeathStarBench).",
     "gipe.title": "Proyecto GIPE",
     "gipe.org": "DAAD · UNDP Accelerator Labs",
     "gipe.when": "ene. 2023 — dic. 2023",
     "gipe.ctx": "Universidades de Alemania, Namibia, Indonesia y Perú",
     "gipe.b1":
-      "Con estudiantes de cuatro universidades, escribí propuestas de requerimientos de software para programas de UNDP Accelerator Labs y las presenté al vicerrector de la UCSP. <span class=\"ph\">[entregable; n integrantes]</span>",
-    projects: "Proyectos",
-    "sam.title": "SAM — Savings Asset Manager",
-    "sam.org": "Co-creado con Manuel Cáceres",
-    "sam.b1":
-      "Aplicación para que desarrolladores presupuesten e inviertan, conectada a los brókers Wallbit e IBKR. <span class=\"ph\">[estado: beta / producción; n usuarios]</span>",
-    "wa.title": "Finanzas por WhatsApp",
-    "wa.b1":
-      "Gastos, ingresos y préstamos multi-usuario por WhatsApp: un LLM (OpenRouter) convierte el chat en registros (Kapso, Cloud Run, Supabase, panel React). <span class=\"ph\">[n usuarios]</span>",
+      "En un equipo de 7 personas, entregué un informe de calidad de internet para una municipalidad y propuse mejoras al flujo de la página web del PNUD.",
     education: "Educación",
     "edu.bs": "Bachiller en Ciencia de la Computación",
     "edu.ucsp": "Arequipa, Perú · 2020 — 2025",
@@ -173,7 +149,7 @@ const translations = {
     "sp.de": "Alemán — A2",
     also: "También",
     alsoText:
-      "Finalista del hackathon de IA TechSuyo 2023 (GPT-4), organizado por Google Developer Group y Silicon Valley tech group <span class=\"ph\">[de X equipos]</span>.",
+      "Finalista entre 20 equipos en TechSuyo 2023 (Google Developer Group y Silicon Valley tech group). Proyectos aparte, unos 10 usuarios cada uno: SAM, con Manuel Cáceres, y un bot de finanzas por WhatsApp.",
   },
 };
 
