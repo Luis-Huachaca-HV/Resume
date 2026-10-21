@@ -95,7 +95,7 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). Diseño y opero infraestructura cloud para fintech: en Newroad Global Investing puse Wealth Navigator en producción sobre un VPS de Hetzner — Tailscale, Cloudflare Tunnel y despliegues blue/green — <span class=\"ph\">[X asesores / Y clientes]</span>, y en ESTIA, presencial en Francia, construí EnergyScore, un scheduler de Kubernetes medido en TeaStore, µBench y DeathStarBench <span class=\"ph\">[X% menos energía que el scheduler por defecto]</span>. Busco un máster de management en Francia para unir ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
+      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). Diseño y opero infraestructura cloud para fintech: en Newroad Global Investing puse Wealth Navigator en producción sobre un VPS de Hetzner — Tailscale, Cloudflare Tunnel y despliegues blue/green — <span class=\"ph\">[X asesores / Y clientes]</span>, y en ESTIA, presencial en Francia, construí EnergyScore, un scheduler de Kubernetes medido en TeaStore, µBench y DeathStarBench <span class=\"ph\">[X% menos energía que el scheduler por defecto]</span>. Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
