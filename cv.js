@@ -7,7 +7,7 @@ const translations = {
     role: "Co-founder & CTO, Moontecx · Cloud infrastructure & fintech",
     location: "Arequipa, Peru",
     summary:
-      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, zero-downtime blue/green deploys — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
+      "Co-founder and CTO of Moontecx and computer science bachelor at UCSP, Peru. I took Wealth Navigator to production at Newroad for a firm managing over US$20M — 12 advisors, 180+ clients, frequent blue/green deploys aimed at zero downtime — and at ESTIA (France, on-site) built EnergyScore, saving up to 30% energy versus the default Kubernetes scheduler (~6% consistently). I connect that infrastructure work with strategy and commercial development.",
     experience: "Experience",
     "mx.title": "Co-founder & CTO",
     "mx.org": "Moontecx",
@@ -20,9 +20,11 @@ const translations = {
     "nr.when": "Dec 2025 — Oct 2026",
     "nr.ctx": "Wealth-management firm, over US$20M under management · Peru",
     "nr.b1":
-      "Put Wealth Navigator into production on a Hetzner VPS (Tailscale-only admin access, Cloudflare Tunnel, blue/green). 12 advisors serve 180+ clients, with zero deployments that caused downtime.",
+      "Put Wealth Navigator into production on a Hetzner VPS (admin access only via Tailscale, Cloudflare Tunnel), with frequent blue/green deploys aimed at zero downtime. 12 advisors serve 180+ clients.",
     "nr.b2":
       "Cut a daily manual process from 2 hours to 5 minutes with ETL into client reporting, and checked data quality before the figures were used with clients.",
+    "nr.b3":
+      "Built logchecker, a Slack bot on the Hetzner Ubuntu host (~15 containers: Wealth Navigator blue/green backend, scheduler, export worker, Caddy, Cloudflare Tunnel, IBKR gateway, Postgres, Redis). It alerts on each new SSH or Tailscale login by key owner, diffs containers, timers, listening ports and outbound connections against a baseline, and posts a CPU chart every 30 minutes. One day showed about 6 blue/green deploys.",
     "sf.title": "Co-founder",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "Jan 2024 — Present",
@@ -83,7 +85,7 @@ const translations = {
     role: "Cofundador y CTO, Moontecx · Infraestructura cloud y fintech",
     location: "Arequipa, Perú",
     summary:
-      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y blue/green sin caída. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
+      "Cofundador y CTO de Moontecx e ingeniero informático (UCSP). En Newroad puse Wealth Navigator en producción para una firma con más de US$20M: 12 asesores, más de 180 clientes y despliegues blue/green frecuentes, orientados a no cortar el servicio. En ESTIA (Francia, presencial), EnergyScore ahorró hasta un 30% frente al scheduler de Kubernetes (~6% consistente). Uno ese trabajo de infraestructura con la estrategia y el desarrollo comercial.",
     experience: "Experiencia",
     "mx.title": "Cofundador y CTO",
     "mx.org": "Moontecx",
@@ -96,9 +98,11 @@ const translations = {
     "nr.when": "dic. 2025 — oct. 2026",
     "nr.ctx": "Sociedad de gestión de patrimonio, más de US$20M bajo administración · Perú",
     "nr.b1":
-      "Puse Wealth Navigator en producción en un VPS de Hetzner (administración solo por Tailscale, Cloudflare Tunnel, blue/green). 12 asesores atienden a más de 180 clientes, con cero despliegues que causaran caída.",
+      "Puse Wealth Navigator en producción en un VPS de Hetzner (administración solo por Tailscale, Cloudflare Tunnel), con despliegues blue/green frecuentes orientados a no cortar el servicio. 12 asesores atienden a más de 180 clientes.",
     "nr.b2":
       "Reduje un proceso manual diario de 2 horas a 5 minutos con ETL hacia el reporting de clientes, y revisé la calidad del dato antes de usarlo con ellos.",
+    "nr.b3":
+      "Construí logchecker, un bot de Slack en el servidor Ubuntu de Hetzner (~15 contenedores: backend blue/green de Wealth Navigator, scheduler, worker de export, Caddy, Cloudflare Tunnel, gateway de IBKR, Postgres, Redis). Avisa de cada acceso nuevo por SSH o Tailscale según el dueño de la llave, compara contenedores, timers, puertos en escucha y conexiones salientes contra una línea base, y publica un gráfico de CPU cada 30 minutos. Un día mostró unos 6 despliegues blue/green.",
     "sf.title": "Cofundador",
     "sf.org": "SunkuFarma S.A.C.",
     "sf.when": "ene. 2024 — Actualidad",
