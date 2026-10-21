@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Luis Huachaca Vargas — software engineer for wealth-management systems, Kubernetes energy research, and retail operations.">
-  <title>Luis Huachaca Vargas — Curriculum Vitae</title>
+  <meta name="description" content="Luis Fredy Huachaca Vargas — co-founder and CTO at Moontecx. Cloud infrastructure for fintech, Wealth Navigator in production, on-site green-computing research at ESTIA.">
+  <title>Luis Fredy Huachaca Vargas — Curriculum Vitae</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -26,14 +26,14 @@
           src="assets/luis-huachaca.jpg"
           width="888"
           height="1184"
-          alt="Portrait of Luis Huachaca Vargas"
+          alt="Portrait of Luis Fredy Huachaca Vargas"
           data-i18n-alt="photoAlt"
         >
       </figure>
       <div class="identity">
         <p class="kicker" data-i18n="kicker">Curriculum Vitae</p>
-        <h1>Luis Huachaca Vargas</h1>
-        <p class="role" data-i18n="role">Software Engineer · Financial Systems &amp; Operations</p>
+        <h1>Luis Fredy Huachaca Vargas</h1>
+        <p class="role" data-i18n="role">Co-founder &amp; CTO, Moontecx · Cloud infrastructure &amp; fintech</p>
         <ul class="contact">
           <li data-i18n="location">Arequipa, Peru</li>
           <li><a href="mailto:luis.huachaca@ucsp.edu.pe">luis.huachaca@ucsp.edu.pe</a></li>
@@ -44,10 +44,8 @@
       </div>
     </header>
 
-    <p class="summary" data-i18n="summary">
-      Software engineer for a wealth-management platform used by advisors who manage real client money — portfolios, structured products, onboarding and mobile.
-      I start from the business problem, not the ticket: a figure that would mislead a client does not go to production.
-      Computer Science (UCSP) with cloud-systems research at ESTIA in France.
+    <p class="summary" data-i18n-html="summary">
+      Co-founder and CTO of Moontecx and computer scientist (UCSP). I design and operate cloud infrastructure for fintech: at Newroad Global Investing I put Wealth Navigator into production on a Hetzner VPS — Tailscale, Cloudflare Tunnel and blue/green deploys — <span class="ph">[X advisors / Y clients]</span>, and at ESTIA, on-site in France, I built EnergyScore, a Kubernetes scheduler measured on TeaStore, µBench and DeathStarBench <span class="ph">[X% less energy than the default scheduler]</span>. I want a management master's in France to connect that infrastructure work with strategy and commercial development.
     </p>
 
     <div class="layout">
@@ -56,82 +54,86 @@
 
         <article class="job">
           <div class="job-head">
-            <h3 data-i18n="nr.title">Software Engineer</h3>
-            <p class="org"><span data-i18n="nr.org">NewRoad · Wealth platform</span> · <a href="https://newroadai.com">newroadai.com</a></p>
-            <p class="when" data-i18n="nr.when">Dec 2025 — Present</p>
+            <h3 data-i18n="mx.title">Co-founder &amp; CTO</h3>
+            <p class="when" data-i18n="mx.when">Oct 2026 — Present</p>
+            <p class="org"><span data-i18n="mx.org">Moontecx</span> · <a href="https://www.moontecx.com/">moontecx.com</a></p>
+            <p class="context" data-i18n="mx.ctx">Technology startup · Arequipa, Peru</p>
           </div>
           <ul>
-            <li data-i18n="nr.b1">Built the production wealth platform advisors use with clients: accounts, positions, Time-Weighted Return, P&amp;L in the firm’s currency, and daily ETL from IBKR and Pershing into PostgreSQL/TimescaleDB.</li>
-            <li data-i18n="nr.b2">Investment products: model-portfolio rebalancing, factsheets (live NAV and labelled backtests), and structured notes with coupon and autocall tracking.</li>
-            <li data-i18n="nr.b3">Front office on the same system: CRM, KYC/NAF onboarding links, referrals and commissions, plus the advisor React UI.</li>
-            <li data-i18n="nr.b4">Client channel: Flutter iOS/Android app, operational email, and session 2FA (FastAPI, Redis, Docker).</li>
+            <li data-i18n-html="mx.b1">Set the product and cloud stack for <span class="ph">[product]</span> and stood up its infrastructure; shipped <span class="ph">[MVP / release]</span> in <span class="ph">[n months]</span>, now at <span class="ph">[n clients / users]</span>.</li>
+            <li data-i18n-html="mx.b2">Defined the profile and interviewed candidates for B2B business-development roles; <span class="ph">[n hires; result: n meetings / first clients]</span>.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-i18n="nr.title">Junior software engineer &amp; data analyst</h3>
+            <p class="when" data-i18n="nr.when">Dec 2025 — Oct 2026</p>
+            <p class="org"><span data-i18n="nr.org">Newroad Global Investing</span> · <a href="https://www.newroadai.com/">newroadai.com</a></p>
+            <p class="context" data-i18n="nr.ctx">Wealth-management firm (markets and fintech) · Peru</p>
+          </div>
+          <ul>
+            <li data-i18n-html="nr.b1">Put Wealth Navigator into production on a Hetzner VPS: Tailscale-only admin access, Cloudflare Tunnel, and blue/green deploys. <span class="ph">[n deploys without downtime; X €/month; n users or advisors]</span></li>
+            <li data-i18n-html="nr.b2">Automated trading-operations work and checked data quality before client use, including ETL into client reporting. <span class="ph">[n flows: sources → destination; from X days to Y hours]</span></li>
+            <li data-i18n-html="nr.b3">Helped organize an investing networking event with Inviu in Arequipa — <span class="ph">[n attendees, n speakers]</span>.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-head">
             <h3 data-i18n="sf.title">Co-founder</h3>
-            <p class="org"><span data-i18n="sf.org">SunkuFarma · two pharmacies · Arequipa</span> · <a href="https://sunkufarma.samishop.com/">sunkufarma.samishop.com</a></p>
-            <p class="when" data-i18n="sf.when">2024 — Present</p>
+            <p class="when" data-i18n="sf.when">Jan 2024 — Present</p>
+            <p class="org"><span data-i18n="sf.org">SunkuFarma S.A.C.</span> · <a href="https://sunkufarma.samishop.com/">sunkufarma.samishop.com</a></p>
+            <p class="context" data-i18n="sf.ctx">Pharmacy startup, two stores · Arequipa</p>
           </div>
           <ul>
-            <li data-i18n="sf.b1">Built the store software: inventory, SUNAT electronic invoicing, and the records used for tax close — so the shops do not depend on an outside vendor for daily operations.</li>
-            <li data-i18n="sf.b2">Also ran the operation: stock, staff, tax filings and the public e-commerce site, alongside two partners.</li>
+            <li data-i18n-html="sf.b1">Built the software both stores use day to day — inventory, SUNAT electronic invoicing and the records for tax close — so operations do not depend on an outside vendor. <span class="ph">[n receipts / month]</span></li>
+            <li data-i18n-html="sf.b2">With two partners, also ran stock, staff, tax filings and the public shop. <span class="ph">[n people on the shop floor]</span></li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-head">
-            <h3 data-i18n="estia.title">Cloud Systems Researcher</h3>
-            <p class="org" data-i18n="estia.org">ESTIA Institute of Technology · Bidart, France</p>
+            <h3 data-i18n="estia.title">Cloud systems researcher</h3>
             <p class="when" data-i18n="estia.when">Aug 2023 — Jan 2025</p>
+            <p class="org" data-i18n="estia.org">ESTIA Institute of Technology</p>
+            <p class="context" data-i18n="estia.ctx">Engineering school · on-site in Bidart, France · green computing</p>
           </div>
           <ul>
-            <li data-i18n-html="estia.b1">Kubernetes usually places a pod where CPU and RAM fit. I added energy: <strong>EnergyScore</strong>, a scheduler plugin that prefers the node where the workload uses fewer joules (CPU, RAM, network, disk).</li>
-            <li data-i18n-html="estia.b2">Reduced total cluster energy by <strong>22.45%</strong> versus the default scheduler on TeaStore, DeathStarBench and muBench, measured with PowerAPI, Scaphandre and RAPL.</li>
+            <li data-i18n-html="estia.b1">Built <strong>EnergyScore</strong>, a Kubernetes scheduler plugin that places each pod on the lower-joule node (CPU, RAM, network and disk, via EcoFloc) instead of the default scheduler.</li>
+            <li data-i18n-html="estia.b2">On TeaStore, energy sat in the web UI and persistence (storage on the image service); on µBench, RAM outweighed CPU (PowerAPI, Scaphandre). <span class="ph">[X% vs the default scheduler under load Y]</span></li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-head">
-            <h3 data-i18n="gipe.title">Research Collaborator</h3>
-            <p class="org" data-i18n="gipe.org">DAAD GIPE · UNDP Accelerator Labs · Germany / remote</p>
-            <p class="when">2022 — 2023</p>
+            <h3 data-i18n="gipe.title">GIPE project</h3>
+            <p class="when" data-i18n="gipe.when">Jan 2023 — Dec 2023</p>
+            <p class="org" data-i18n="gipe.org">DAAD · UNDP Accelerator Labs</p>
+            <p class="context" data-i18n="gipe.ctx">Universities in Germany, Namibia, Indonesia and Peru</p>
           </div>
           <ul>
-            <li data-i18n="gipe.b1">Took on-site Wi-Fi measurements and built a coverage map so a vulnerable school could choose an internet provider (GIPE 2022).</li>
-            <li data-i18n="gipe.b2">With UNDP Accelerator Labs (Peru, Namibia, Indonesia, Germany), analysed field problems and wrote software-requirement proposals for their programmes — four-university GIPE 2023 team.</li>
-          </ul>
-        </article>
-
-        <article class="job compact">
-          <div class="job-head">
-            <h3 data-i18n="arb.title">UX/UI Designer</h3>
-            <p class="org" data-i18n="arb.org">Arboriza 21 · donation website for a reforestation NGO (21 million trees by 2030)</p>
-            <p class="when">2023</p>
-          </div>
-        </article>
-
-        <article class="job compact">
-          <div class="job-head">
-            <h3 data-i18n="dunkin.title">Customer Service</h3>
-            <p class="org" data-i18n="dunkin.org">Dunkin' · Boston, Massachusetts, USA · on-site</p>
-            <p class="when" data-i18n="dunkin.when">Dec 2022 — Mar 2023</p>
-          </div>
-          <ul>
-            <li data-i18n="dunkin.b1">Worked in a high-volume store: trained new team members and owned daily cash counting and closing.</li>
-            <li data-i18n="dunkin.b2">Served customers and worked with people from many nationalities, languages and backgrounds.</li>
+            <li data-i18n-html="gipe.b1">With students from four universities, wrote software-requirement proposals for UNDP Accelerator Labs programmes and presented them to the vice-rector of UCSP. <span class="ph">[deliverable; n people on the team]</span></li>
           </ul>
         </article>
 
         <h2 data-i18n="projects">Selected projects</h2>
         <article class="job">
           <div class="job-head">
+            <h3 data-i18n="sam.title">SAM — Savings Asset Manager</h3>
+            <p class="org" data-i18n="sam.org">Co-built with Manuel Cáceres</p>
+          </div>
+          <ul>
+            <li data-i18n-html="sam.b1">Budgeting and investing app for developers, connected to the brokers Wallbit and IBKR. <span class="ph">[status: beta / production; n users]</span></li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="job-head">
             <h3 data-i18n="wa.title">WhatsApp finance</h3>
             <p class="org"><a href="https://github.com/Luis-Huachaca-HV/llmwhatsappfinance">llmwhatsappfinance</a></p>
           </div>
           <ul>
-            <li data-i18n="wa.b1">Multi-user money control over WhatsApp: expenses, income and loans. An LLM turns chat into structured records (Kapso, Cloud Run, Supabase, React dashboard).</li>
+            <li data-i18n-html="wa.b1">Multi-user expenses, income and loans over WhatsApp: an LLM (OpenRouter) turns chat into records (Kapso, Cloud Run, Supabase, React dashboard). <span class="ph">[n users]</span></li>
           </ul>
         </article>
       </section>
@@ -142,53 +144,55 @@
           <h3 data-i18n="edu.bs">B.Sc. Computer Science</h3>
           <p>Universidad Católica San Pablo</p>
           <p class="when" data-i18n="edu.ucsp">Arequipa, Peru · 2020 — 2025</p>
-          <p data-i18n="edu.thesis">Thesis: energy-aware scheduling for microservice clusters, using measured joules per request rather than leftover CPU/RAM.</p>
+          <p data-i18n="edu.degree">5-year degree, 219 credits.</p>
+          <p data-i18n="edu.courses">Courses: tech-venture creation I (17.8/20) and II, Leadership (15.6/20), public speaking.</p>
+          <p data-i18n="edu.thesis">Thesis: energy-aware scheduling for microservice clusters, using measured joules per request rather than free CPU/RAM.</p>
         </article>
         <article class="edu">
-          <h3 data-i18n="edu.estia">Cloud Computing research stay</h3>
+          <h3 data-i18n="edu.estia">Exchange · Computer Engineering</h3>
           <p>ESTIA Institute of Technology</p>
-          <p class="when" data-i18n="edu.estiaWhen">Bidart, France · 2024</p>
+          <p class="when" data-i18n="edu.estiaWhen">On-site · Bidart, France · Aug — Dec 2024</p>
         </article>
         <article class="edu">
           <h3 data-i18n="edu.amw">AMW Data Management workshop</h3>
           <p data-i18n="edu.chile">University of Chile</p>
-          <p class="when">Santiago · 2023</p>
+          <p class="when" data-i18n="edu.amwWhen">Santiago · May — Jun 2023</p>
         </article>
 
         <h2 data-i18n="skills">Technical skills</h2>
         <dl class="skills">
           <div>
-            <dt data-i18n="sk.lang">Languages</dt>
-            <dd>Python, TypeScript, JavaScript, Go, C++, SQL</dd>
+            <dt data-i18n="sk.cloud">Cloud &amp; infra</dt>
+            <dd>Kubernetes, Docker, Linux, Terraform, Cloudflare, Tailscale</dd>
           </div>
           <div>
-            <dt data-i18n="sk.cloud">Cloud &amp; systems</dt>
-            <dd>Kubernetes, Docker, Linux, AWS, GCP, Helm, Terraform</dd>
+            <dt data-i18n="sk.data">Data &amp; energy</dt>
+            <dd>ETL, PowerAPI, Scaphandre, EcoFloc</dd>
           </div>
           <div>
-            <dt>Backend</dt>
-            <dd>FastAPI, Django, PostgreSQL, TimescaleDB, Redis</dd>
+            <dt data-i18n="sk.dev">Development</dt>
+            <dd>Python, JavaScript, React, Go, SQL</dd>
           </div>
           <div>
-            <dt>Frontend</dt>
-            <dd>React, Flutter</dd>
+            <dt data-i18n="sk.biz">Business</dt>
+            <dd data-i18n="sk.bizDd">Markets and trading, financial data</dd>
           </div>
           <div>
-            <dt data-i18n="sk.energy">Energy &amp; data</dt>
-            <dd>PowerAPI, Scaphandre, RAPL, Grafana, Pandas</dd>
+            <dt data-i18n="sk.sec">Security</dt>
+            <dd data-i18n="sk.secDd">Cybersecurity (in progress)</dd>
           </div>
         </dl>
 
         <h2 data-i18n="spoken">Languages</h2>
         <ul class="plain">
           <li data-i18n="sp.es">Spanish — native</li>
-          <li data-i18n="sp.en">English — advanced</li>
-          <li data-i18n="sp.fr">French — advanced</li>
-          <li data-i18n="sp.de">German — basic</li>
+          <li data-i18n="sp.en">English — C1</li>
+          <li data-i18n="sp.fr">French — B2 (DELF B2, November 2026 session)</li>
+          <li data-i18n="sp.de">German — A2</li>
         </ul>
 
         <h2 data-i18n="also">Also</h2>
-        <p class="aside-note" data-i18n="alsoText">Taught programming; university accreditation staff; TechSuyo 2023 AI hackathon (NTT DATA); CS conferences.</p>
+        <p class="aside-note" data-i18n-html="alsoText">Finalist, TechSuyo 2023 AI hackathon (GPT-4), organized by Google Developer Group and Silicon Valley tech group <span class="ph">[of X teams]</span>.</p>
       </aside>
     </div>
   </main>

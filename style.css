@@ -161,9 +161,9 @@ a:hover {
 h1 {
   margin: 0;
   font-family: var(--display);
-  font-size: 2.15rem;
+  font-size: 1.92rem;
   font-weight: 700;
-  letter-spacing: -0.018em;
+  letter-spacing: -0.02em;
   line-height: 0.92;
   color: var(--ink);
 }
@@ -204,12 +204,12 @@ h1 {
 }
 
 .summary {
-  margin: 4mm 0 4.2mm;
+  margin: 3.2mm 0 3.4mm;
   font-family: var(--display);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   font-style: italic;
-  line-height: 1.28;
+  line-height: 1.26;
   color: var(--ink);
 }
 
@@ -237,11 +237,11 @@ h2 {
 }
 
 .job {
-  margin: 0 0 2.8mm;
+  margin: 0 0 2.15mm;
 }
 
 .job.compact {
-  margin-bottom: 2.4mm;
+  margin-bottom: 1.8mm;
 }
 
 .job-head {
@@ -268,6 +268,15 @@ h2 {
   color: var(--muted);
 }
 
+.context {
+  margin: 0.3mm 0 0;
+  grid-column: 1 / -1;
+  font-size: 0.66rem;
+  font-style: italic;
+  line-height: 1.25;
+  color: var(--muted);
+}
+
 .when {
   margin: 0;
   grid-column: 2;
@@ -286,9 +295,16 @@ h2 {
 }
 
 .job li {
-  margin: 0 0 0.7mm;
-  font-size: 0.73rem;
-  line-height: 1.28;
+  margin: 0 0 0.45mm;
+  font-size: 0.71rem;
+  line-height: 1.26;
+}
+
+.ph {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #8a3b12;
 }
 
 .job li strong {
@@ -301,11 +317,11 @@ h2 {
 }
 
 .side-col h2:not(:first-child) {
-  margin-top: 4.2mm;
+  margin-top: 3.4mm;
 }
 
 .edu {
-  margin: 0 0 2.6mm;
+  margin: 0 0 2.2mm;
 }
 
 .edu p {
@@ -325,7 +341,7 @@ h2 {
 }
 
 .skills div {
-  margin: 0 0 2.1mm;
+  margin: 0 0 1.7mm;
 }
 
 .skills dt {
@@ -410,7 +426,7 @@ h2 {
 
 @media print {
   html {
-    font-size: 10.4pt;
+    font-size: 10.15pt;
   }
 
   body {
@@ -435,5 +451,9 @@ h2 {
 
   a {
     text-decoration: none;
+  }
+
+  .ph {
+    color: #8a3b12;
   }
 }
